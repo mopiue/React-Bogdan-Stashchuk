@@ -1,0 +1,12 @@
+.todo {
+  width: 400px;
+  height: 34px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-icon {
+  height: 40px;
+}
