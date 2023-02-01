@@ -1,7 +1,13 @@
 import 'remixicon/fonts/remixicon.css'
+import styles from './Todo.module.css'
 
 function Todo({ todo }) {
-  return <h3>{todo}</h3>
+  return (
+    <div className={styles.todo}>
+      <i class="ri-file-list-fill"></i>
+      <span>{todo}</span>
+    </div>
+  )
 }
 
 export default Todo
